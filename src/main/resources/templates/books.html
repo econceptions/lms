@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Title</td>
+        <td>Description</td>
+        <td>Edition</td>
+    </tr>
+    <tr>
+        <td th:text="${id}">ID</td>
+        <td th:text="${title}">Title</td>
+        <td th:text="${desc}">Description</td>
+        <td th:text="${edition}">Edition</td>
+    </tr>
+</table>
+</body>
+</html>
